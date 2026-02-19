@@ -1,25 +1,34 @@
 # Data-analytics
  # Association Rule Mining with R
 
-Final Project 
-Michael Tefera 
-University of Cassino – Economics with Data Science
-
+# Author
+- **Name**: Michael Tefera
+- **ID**: 79451
+- University of Cassino – Economics with Data Science
+- 
 ## Project Overview
 
 This project applies Association Rule Mining using the Apriori algorithm in R to analyze transactional recipe data.
 
 The objective is to discover frequent itemsets and strong association rules based on support, confidence, and lift.
 
----
-
-## Dataset Information
-
+## Dataset
+The dataset contains 
 - Total transactions: 6,750
 - Unique items: 29
 - Average items per transaction: 5.39
+- 
+## Requirements
+- R (version 4.0+)
+- Required packages:
+  - tidyverse
+  - arules
+  - arulesViz
+  - RColorBrewer
 
----
+## Installation
+```R
+install.packages(c("tidyverse", "arules", "arulesViz", "RColorBrewer"))
 
 ## Methods Used
 
@@ -32,24 +41,3 @@ The objective is to discover frequent itemsets and strong association rules base
   - Matrix plot
 
 ---
-
-## Key Findings
-
-Top frequent items:
-- Onion
-- Garlic
-- Tomato
-
-Strongest Rule:
-Garlic & Onion → Tomato  
-Confidence: 0.897  
-Lift: 2.77
-
----
-
-## Tools & Libraries
-
-- R
-- arules
-- arulesViz
-- 
