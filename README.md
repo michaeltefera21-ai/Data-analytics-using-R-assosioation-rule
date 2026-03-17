@@ -17,7 +17,7 @@ The dataset contains
 - Total transactions: 6,750
 - Unique items: 29
 - Average items per transaction: 5.39
-- 
+  
 ## Requirements
 - R (version 4.0+)
 - Required packages:
